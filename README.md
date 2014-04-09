@@ -87,3 +87,7 @@ lastly you need to add a display.py file to each app named in DISPLAY_APPS (see 
 			class Meta(SkeletalDisplay.ModelDisplayMeta):
 				model = m.Component
 				exclude = ('id', 'description', 'nominal_price', 'xl_id')
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/samuelcolvin/django-skeletal-display/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
